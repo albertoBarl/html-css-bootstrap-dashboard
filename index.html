@@ -10,34 +10,37 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <header class="container-fluid bg-light fixed-top">
-        <div class="row bg-body">
-            <div class="col col-1 col-lg-2 align-self-center">
-                <div class="logo">
-                    <img src="./img/mobile-logo.png" alt="IMG not available" class="d-block d-lg-none">
-                    <img src="./img/logo.svg" alt="IMG not available" class="d-none d-lg-block">
-                </div>
-            </div>
-            <div class="col col-10 col-lg-8 align-self-center">
-                <div class="search-bar">
-                    <div class="form-control d-flex align-items-center">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="search" id="form1" class="border-0 ps-2 w-100" placeholder="Prova a cercare: Lezioni di Laravel"/>
+    <header class="bg-light fixed-top py-3">
+        <div class="container-fluid">
+            <div class="row bg-body align-items-center">
+                <div class="col-2">
+                    <div class="logo">
+                        <img src="./img/mobile-logo.png" alt="IMG not available" class="d-lg-none">
+                        <img src="./img/logo.svg" alt="IMG not available" class="d-none d-lg-block">
                     </div>
                 </div>
-            </div>
-            <div class="col col-1 col-lg-2 align-self-center">
-                <div class="nav-icons d-flex justify-content-around">
-                    <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-list text-secondary"></i></a>
-                    <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-circle-question text-secondary"></i></a>
-                    <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a>
-                    <a href="#" class="text-decoration-none"><i class="fa-solid fa-bell text-warning"></i></a>
+                <div class="col-8">
+                    <div class="search-bar">
+                        <div class="form-control d-flex align-items-center">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" id="form1" class="border-0 ps-2 w-100" placeholder="Prova a cercare: Lezioni di Laravel"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="nav-icons d-flex justify-content-around">
+                        <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-list text-secondary"></i></a>
+                        <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-circle-question text-secondary"></i></a>
+                        <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-bell text-warning"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     
     <main class="d-flex">
+
         <!-- sidebar -->
         <div class="sidebar bg-primary py-2">
             <div class="sidebar-content d-flex flex-column justify-content-between align-items-center">
@@ -69,8 +72,11 @@
                 </div>
             </div>
         </div>
+
         <!-- main content -->
         <div class="main-content d-flex flex-column">
+
+            <!-- header main -->
             <div class="header-main bg-info">
                 <div class="container">
                     <div class="row">
@@ -80,6 +86,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- central main -->
             <div class="container-fluid central-main bg-light overflow-auto">
                 <div class="row d-flex flex-column flex-lg-row g-3 py-4">
                     <div class="col-12 col-lg-8 flex-column">
@@ -298,13 +306,7 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </main>
-
-    </div>
 
 
 
