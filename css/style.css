@@ -8,7 +8,6 @@
 /* ================ HEADER ================== */
 header{
     height: 100px;
-    position: fixed;
 }
 
 /* col left */
@@ -45,3 +44,12 @@ main{
     background-color: coral;
 }
 
+.header-main{
+    width: 100%;
+    height: 100px;
+}
+
+.central-main{
+    width: 100%;
+    height: calc(100% - 100px);
+}
