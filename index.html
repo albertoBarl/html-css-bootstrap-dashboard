@@ -10,83 +10,82 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <header class="container-fluid bg-light">
-        <div class="row bg-body">
-            <div class="col col-1 col-lg-2 align-self-center">
-                <div class="logo">
-                    <img src="./img/mobile-logo.png" alt="IMG not available" class="d-block d-lg-none">
-                    <img src="./img/logo.svg" alt="IMG not available" class="d-none d-lg-block">
-                </div>
-            </div>
-            <div class="col col-10 col-lg-8 align-self-center">
-                <div class="search-bar">
-                    <div class="form-control d-flex align-items-center">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="search" id="form1" class="border-0 ps-2 w-100" placeholder="Prova a cercare: Lezioni di Laravel"/>
+    <div class="d-flex flex-column">
+        <header class="container-fluid bg-light">
+            <div class="row bg-body">
+                <div class="col col-1 col-lg-2 align-self-center">
+                    <div class="logo">
+                        <img src="./img/mobile-logo.png" alt="IMG not available" class="d-block d-lg-none">
+                        <img src="./img/logo.svg" alt="IMG not available" class="d-none d-lg-block">
                     </div>
                 </div>
-            </div>
-            <div class="col col-1 col-lg-2 align-self-center">
-                <div class="nav-icons d-flex justify-content-around">
-                    <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-list text-secondary"></i></a>
-                    <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-circle-question text-secondary"></i></a>
-                    <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a>
-                    <a href="#" class="text-decoration-none"><i class="fa-solid fa-bell text-warning"></i></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main class="container-fluid d-flex">
-            <!-- sidebar -->
-            <div class="sidebar bg-primary">
-                <div class="row">
-                    <div class="col-12 d-flex flex-column justify-content-between align-items-center">
-                        <div class="sidebar-up d-flex flex-column">
-                            <a href="" class="text-white text-decoration-none">
-                                <div class="d-flex align-items-center px-3 py-2">
-                                    <i class="fa-solid fa-house"></i>
-                                    <span class="d-none d-lg-block ps-3">Home</span>
-                                </div>
-                            </a>
-                            <a href=""  class="text-white text-decoration-none">
-                                <div class="d-flex align-items-center px-3 py-2">
-                                    <i class="fa-solid fa-chart-simple"></i>
-                                    <span class="d-none d-lg-block ps-3">Stats</span>
-                                </div>
-                            </a>
-                            <a href=""  class="text-white text-decoration-none">
-                                <div class="d-flex align-items-center px-3 py-2">
-                                    <i class="fa-solid fa-signal"></i>
-                                    <span class="d-none d-lg-block ps-3">Signals</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-down">
-                            <a href="" class="text-white text-decoration-none d-flex align-items-center px-3 py-2">
-                                <i class="fa-solid fa-gear"></i>
-                                <span class="d-none d-lg-block ps-3">Admin</span>
-                            </a>
+                <div class="col col-10 col-lg-8 align-self-center">
+                    <div class="search-bar">
+                        <div class="form-control d-flex align-items-center">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" id="form1" class="border-0 ps-2 w-100" placeholder="Prova a cercare: Lezioni di Laravel"/>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- main content -->
-            <div class="main-content">
-                <div class="row d-flex flex-column flex-sm-row">
-                    <div>PROVA</div>
-                    <div>PROVA</div>
-                    <div>PROVA</div>
-                </div>
-                <div class="row">
-                    <div>PROVA</div>
-                    <div>PROVA</div>
-                    <div>PROVA</div>
+                <div class="col col-1 col-lg-2 align-self-center">
+                    <div class="nav-icons d-flex justify-content-around">
+                        <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-list text-secondary"></i></a>
+                        <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-circle-question text-secondary"></i></a>
+                        <a href="#" class="text-decoration-none d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-bell text-warning"></i></a>
+                    </div>
                 </div>
             </div>
+        </header>
+    
+        <main class="container-fluid d-flex">
+                <!-- sidebar -->
+                <div class="sidebar bg-primary">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-between align-items-center">
+                            <div class="sidebar-up d-flex flex-column">
+                                <a href="" class="text-white text-decoration-none">
+                                    <div class="d-flex align-items-center px-3 py-2">
+                                        <i class="fa-solid fa-house"></i>
+                                        <span class="d-none d-lg-block ps-3">Home</span>
+                                    </div>
+                                </a>
+                                <a href=""  class="text-white text-decoration-none">
+                                    <div class="d-flex align-items-center px-3 py-2">
+                                        <i class="fa-solid fa-chart-simple"></i>
+                                        <span class="d-none d-lg-block ps-3">Stats</span>
+                                    </div>
+                                </a>
+                                <a href=""  class="text-white text-decoration-none">
+                                    <div class="d-flex align-items-center px-3 py-2">
+                                        <i class="fa-solid fa-signal"></i>
+                                        <span class="d-none d-lg-block ps-3">Signals</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-down">
+                                <a href="" class="text-white text-decoration-none d-flex align-items-center px-3 py-2">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <span class="d-none d-lg-block ps-3">Admin</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- main content -->
+                <div class="main-content d-flex flex-column">
+                    <div class="row flex-column flex-sm-row">
+                        <div class="col">PROVA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">PROVA</div>
+                    </div>
+                </div>
+    
+        </main>
 
-    </main>
+    </div>
 
 
 
