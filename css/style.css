@@ -35,14 +35,24 @@ main{
 
 
 /* sidebar */
-.bg-primary{
+.sidebar{
     height: 100%;
+    width: 100px;
     position: absolute;
     left: 0;
     top: 100px;
 }
 
-.side-bar .row{
+.sidebar .row{
     height: 100%;
 }
 
+/* main content */
+.main-content{
+    position: absolute;
+    height: 100%;
+    width: calc(100vw - 100px);
+    right: 0;
+    top: 100px;
+    background-color: lightcoral;
+}
