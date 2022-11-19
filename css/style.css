@@ -57,3 +57,21 @@ main{
 td:not(tr td:first-child){
     text-align: center;
 }
+
+table{
+    font-size: small;
+}
+
+tr{
+    vertical-align: middle;
+}
+
+
+
+/* mediaqueries */
+@media screen and (max-width: 575px) {
+    .sparisci-m{
+        display: none;
+    }
+    
+}
