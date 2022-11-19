@@ -53,3 +53,7 @@ main{
     width: 100%;
     height: calc(100% - 100px);
 }
+
+td:not(tr td:first-child){
+    text-align: center;
+}
