@@ -79,7 +79,9 @@ tr{
     color: white;
 }
 
-
+.sidebar a:hover{
+    background-color: #165bba;
+}
 
 
 /* mediaqueries */
