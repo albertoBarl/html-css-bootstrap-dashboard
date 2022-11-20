@@ -80,7 +80,83 @@
             <div class="header-main bg-info">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-4 col-lg-2 order-sm-3">PROVA 1</div>
+                        <div class="col-12 col-sm-4 col-lg-2 order-sm-3">
+                            <label>Nuovo studente</label>
+                            <a class="btn btn-primary border" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-plus"></i></a>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    
+                                    <!-- offcanvas body -->
+                                    <form>
+                                        <label for="Nome">Nome</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" aria-label="Nome" id="Nome" name="Nome" aria-describedby="basic-addon1">
+                                        </div>
+                                          
+                                        
+                                        <label for="cognome">Cognome</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" aria-label="Cognome" id="Cognome" name="Cognome" aria-describedby="basic-addon1">
+                                        </div>
+
+                                        <label for="addon-wrapping">Email</label>
+                                        <div class="input-group flex-nowrap mb-3">
+                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                            <input type="email" class="form-control" aria-label="Email" id="email" name="email" aria-describedby="addon-wrapping">
+                                        </div>
+
+                                        <label for="password">Password</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" aria-label="Password" id="password" name="password" aria-describedby="basic-addon1">
+                                        </div>
+                                        
+                                        <label for="indirizzo">Indirizzo</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" aria-label="Indirizzo" id="indirizzo" name="indirizzo" aria-describedby="basic-addon1">
+                                        </div>
+
+                                        <label for="citta&#768;">Citta&#768;</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" aria-label="Citta&#768;" id="citta&#768;" name="citta&#768;" aria-describedby="basic-addon1">
+                                        </div>
+
+                                        <label for="inputGroupSelect02">Stato</label>
+                                        <div class="input-group mb-3">
+                                            <select class="form-select" id="inputGroupSelect02">
+                                                <option selected>Scegli...</option>
+                                                <option value="1">Roma</option>
+                                                <option value="2">Milano</option>
+                                                <option option value="3">Napoli</option>
+                                            </select>
+                                        </div>                                          
+
+                                        <label for="cap">CAP</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" aria-label="CAP" id="cap" name="cap" aria-describedby="basic-addon1">
+                                        </div>
+                                        
+                                        <label for="inputGroupFile02">Foto</label>
+                                        <div class="input-group mb-3">
+                                            <input type="file" class="form-control" id="inputGroupFile02">
+                                        </div>
+
+                                        <div>
+                                            <div class="mb-3">
+                                                <input type="checkbox" name="check" id="check">
+                                                <label for="check">Seleziona per proseguire</label>
+                                            </div>
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-12 col-sm-4 col-lg-6">PROVA 2</div>
                         <div class="col-12 col-sm-4 col-lg-4">PROVA 3</div>
                     </div>
