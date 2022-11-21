@@ -44,7 +44,6 @@ main{
 .main-content{
     width: calc(100% - 10%);
     height: calc(100vh - 75px);
-    background-color: coral;
 }
 
 /* header main */
@@ -55,7 +54,7 @@ main{
 /* central main */
 .central-main{
     width: 100%;
-    height: calc(100% - 75px);
+    height: 100%;
 }
 
 td:not(tr td:first-child){
